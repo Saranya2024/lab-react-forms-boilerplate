@@ -7,23 +7,26 @@ body {
 
 form {
   width: 350px;
-  padding: 30px 20px; 
+  padding: 30px 20px;
   border: 1px solid #ccc;
   background-color: #fff;
 }
 
-input[type="text"],
-input[type="email"] {
+.input-container {
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
   padding: 15px;
   border: 1px solid #ccc;
-  margin-bottom: 20px; 
+  margin-bottom: 10px;
   width: calc(100% - 20px);
   box-sizing: border-box;
   background-color: #ebebe0;
 }
 
-button[type="submit"] {
-  background-color: #4CAF50;
+button[type='submit'] {
+  background-color: #4caf50;
   color: white;
   padding: 15px 30px;
   border-radius: 0px;
@@ -38,4 +41,11 @@ button[type="submit"] {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
+}
+
+.error {
+  color: red;
+  text-align: left;
+  margin-top: 3px;
+  padding-left: 10px;
 }
