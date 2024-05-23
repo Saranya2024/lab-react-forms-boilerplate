@@ -42,16 +42,13 @@ function RegistrationForm() {
                 <div className="input-container">
                     <input type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} />
                     {errors.firstName && <div className="error">{errors.firstName}</div>}
-                </div>
-                <div className="input-container">
+                    
                     <input type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} />
                     {errors.lastName && <div className="error">{errors.lastName}</div>}
-                </div>
-                <div className="input-container">
+                    
                     <input type="text" name="email" placeholder="Email" value={formData.email} onChange={handleChange} />
                     {errors.email && <div className="error">{errors.email}</div>}
-                </div>
-                <div className="input-container">
+                    
                     <input type="text" name="contacts" placeholder="Phone number" value={formData.contacts} onChange={handleChange} />
                     {errors.contacts && <div className="error">{errors.contacts}</div>}
                 </div>
